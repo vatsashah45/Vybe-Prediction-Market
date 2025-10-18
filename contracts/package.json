@@ -5,6 +5,8 @@
     "scripts": {
         "node": "hardhat node --port 8545 --hostname 127.0.0.1",
         "e2e:spotify": "hardhat run scripts/e2e_spotify_demo.js",
+        "deploy_vybe": "hardhat run scripts/deploy_vybe.js --network localhost",
+    "list_markets": "hardhat run scripts/list_markets.js --network localhost",
         "e2e": "hardhat run scripts/e2e_demo.js --network localhost",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
